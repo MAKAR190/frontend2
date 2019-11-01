@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 20px 0 20px 0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-item{
+    text-decoration: none;
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#555252;
+    font-size: 30px;
+}
+.logo::first-letter{
+    color: #1abc9c;
+    font-weight: 700;
+}
+.menu-items:hover{
+    color: #1abc9c;
+}
+.logo:hover{
+    color: #1abc9c;
+}
+.menu-items{
+    display: flex;
+justify-content: space-around;
+margin-right: 20px;
+text-decoration: none;
+text-transform: uppercase;
+color: #0f0101;
+}
+.text{
+    text-align: center;
+    margin-top: 50px;
+}
+.title{
+    color: #515151;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.title::after{
+    content: '';
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.image-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+   list-style:none;
+   margin-left: 70px;
+   margin-top: 40px;
+}
+.image{
+    background-color: #e9f0fd;
+    width: 300px;
+    height: 340px;
+    margin-top: 10px;
+    position: relative;
+ 
+}
+
+.image>img{
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.describe{
+    width: 300px;
+    background-color: #323232;
+    color:#fff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+.price{
+    width: 54px;
+    background-color: #8c8c8c;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color:#fff;
+}
+.describe:hover{
+    background-color:#1abc9c ;
+}
+.price:hover{
+background-color: #7fd9c7;
+}
+.news-menu-item>img{
+    width: 350px;
+    height: 200px;
+}
+.news-descr{
+    width: 355px;
+    color:#555252;
+}
+.news-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.news-menu-item{
+    margin-top: 40px;
+}
+.news-title{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:#555252;
+}
+.news-title::after{
+    content: '';
+  width: 136px;
+  height: 3px;
+  background-color: #4ec6ab;
+  display: block;
+  margin-top: 10px;
+}
+.button{
+    color: #fff;
+    background-color: #4ec6ab;
+    width: 159px;
+    height: 51px;
+    border:none;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
